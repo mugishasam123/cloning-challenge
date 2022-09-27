@@ -1,22 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cloneChallenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="fixed z-10 lg:space-y-1  lg:text-white left-0 right-0  top-3 px-4">
+            <ul class="lg:flex  hidden space-x-3 justify-end pt-2 pr-4 ">
+                <li>
+                    <a href="#">Sign In </a>
+                </li>
+                <span>|</span>
+                <li class="flex space-x-1 ">
+                    <a href="#">Subscribe</a>
+                    <img src="" alt="">
+                </li>
+            </ul>
+            <div class="flex items-center px-2 justify-between lg:px-4">
+                <div class="flex space-x-10 items-center ">
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-7 h-7 text-white font-bold" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <a href="#"><span>McKinsey & Company</span></a>
+                    </div>
 
+                    <ul class="lg:flex hidden space-x-5">
+                        <li>
+                            <a href="#">Industries</a>
+                        </li>
+                        <li>
+                            <a href="#">Capabilities</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured Insights</a>
+                        </li>
+                        <li>
+                            <a href="#">Locations</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+
+
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Mc Kinsey Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex space-x-2 items-center">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </div>
         </nav>
     </header>
-    
-        <div class="bg-red-500">
-       
+    <section>
+
+        <img class="lg:h-full object-cover h-96 w-full"
+            src="https://prod.ucwe.capgemini.com/wp-content/uploads/2022/09/Capgemini-leading-sustainability-NYC.jpg?w=1440&quality=90"
+            alt="">
+        <div
+            class="space-y-5 bg-red-500    absolute   rounded-md px-9 py-2 top-24 bottom-3 left-8 w-60 md:w-72 lg:left-10 lg:w-96 h-fit md:right-[72%] max-w-96">
+            <h1 class="text-white font-bold text-2xl">Addressing Europe’s technology gap</h1>
+            <p class="text-white ">Even amid war in Europe and the energy and cost of living crisis that has resulted,
+                the region needs to pay attention to its slow-motion corporate and technology crisis.</p>
+
+            <div class="flex space-x-2">
+                <span>Understand Trends</span>
+                <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </div>
+
+            <div class="flex space-x-2">
+                <span>Explore a special collection on lifting Europes ambition</span>
+                <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </div>
         </div>
-   
+    </section>
+
+    <section class="bg-gray-100 overflow-x-auto max-w-[100%] flex space-x-3 lg:mt-0 mt-52 py-3 px-3">
+        <h3 class="text-gray w-80">Trending Heights</h3>
+        <div class="flex space-x-1 w-52">
+            <span class="text-blue-500">1</span>
+            <span class="text-blue-500">|</span>
+            <p class="w-96">
+                How inflation is flipping the economic script, in seven charts</p>
+        </div>
+        <div class="flex space-x-1">
+            <span class="text-blue-500">1</span>
+            <span class="text-blue-500">|</span>
+            <p class="w-96">
+                How inflation is flipping the economic script, in seven charts</p>
+        </div>
+        <div class="flex space-x-1">
+            <span class="text-blue-500">2</span>
+            <span class="text-blue-500">|</span>
+            <p class="w-96">
+                McKinsey Technology Trends Outlook 2022</p>
+        </div>
+        <div class="flex space-x-1">
+            <span class="text-blue-500">3</span>
+            <span class="text-blue-500">|</span>
+            <p class="w-96">
+                The Great Attrition is making hiring harder. Are you searching the right talent pools?
+            </p>
+        </div>
+        <div class="flex space-x-1">
+            <span class="text-blue-500">4</span>
+            <span class="text-blue-500">|</span>
+            <p class="w-96">
+                Does ESG really matter—and why?
+
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="md:flex">
+            <img class="md:w-3/4 md:h-[450px]" src="/img/hype.jpeg" alt="">
+            <div class="space-y-5 p-16 bg-gray-100 md:h-[450px]">
+                <h3 class="font-bold text-2xl">Web3 beyond the hype</h3>
+                <p>While buffeted by the recent market downturn and bankruptcies, digital assets and the technologies
+                    underlying them still have the potential to transform business models across sectors.</p>
+                <div class="flex space-x-2">
+                    <span>Understand The Potential</span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="flex space-x-2">
+                    <span>Explore more insights on financial services</span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </div>
+        
+        </div>
+        <div class="md:flex md:flex-row-reverse">
+            <img class="md:w-3/4 md:h-[450px]" src="/img/scratch.jpeg" alt="">
+            <div class="space-y-5 p-16 bg-gray-100 md:h-[450px]">
+                <h3 class="font-bold text-2xl">
+                    ‘If you're going to build something from scratch, this might be as good a time as in a decade’</h3>
+                <p>In the second episode of our series The Quarterly Interview: Provocations to Ponder, venture
+                    capitalist Bill Gurley explains the promise and perils facing start-ups at a moment of economic
+                    uncertainty and reveals why hybrid work may be the most interesting technology of all.</p>
+                <div class="flex space-x-2">
+                    <span>Be ambitious</span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="flex space-x-2">
+                    <span>Explore more insights on digital</span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="md:flex">
+            <img class="md:w-3/4 md:h-[450px]" src="/img/economy.jpeg" alt="">
+            <div class="space-y-5 p-16 bg-gray-100 md:h-[450px]">
+                <h3 class="font-bold text-2xl">
+                    We’re helping build an economy that works for all.</h3>
+                <p>7 in 10 people live in societies with growing inequality. That’s why we’re taking action..</p>
+                <div class="flex space-x-2">
+                    <span>See how we'are helping </span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="flex space-x-2">
+                    <span>Pre the titanium book</span>
+                    <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mt-12">
+        <h3 class="font-bold text-2xl text-center">NEW AT MCKINSEY BLOG</h3>
+        <div>
+            <div class="relative bg-gray-50">
+                <div >
+                    <img class="bg-gray-300" src="/img/hacker.jpeg" alt="">
+                </div>
+              
+                <div class="absolute left-4 bottom-4">
+                    <span>september 23,2022</span>
+                    <p class="font-bold text-xl">Tearing the paper bceiling :Mc kinseney supportseffort driving upwardmobility for millions of
+                        workers</p>
+                </div>
+            </div>
+
+            <div class="md:flex relative">
+                <img class="md:w-1/2 md:h-[300px]" src="/img/spageti.jpeg" alt="">
+                <div class="md:px-12 md:pt-32 space-y-3">
+                    <span>september 23,2022</span>
+                    <p class="font-bold text-xl">Microsoft wrights joinsMckinseney aes chief techgnology officer</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 flex-col justify-center">
+                 <div class="space-y-3 pt-[400px] md:p-12 text-white px-24 pb-11">
+                    <span>september 23,2022</span>
+                    <p>Microsoft wrights joinsMckinseney aes chief techgnology officer</p>
+                 </div>
+               
+            </div>
+
+            <div class="md:flex md:flex-row-reverse">
+                <img class="md:w-1/2 md:h-[300px]" src="/img/building.jpeg" alt="">
+                <div class="md:px-12 md:pt-32 space-y-3">
+                    <span>september 23,2022</span>
+                    <p class="font-bold text-xl">wrights joinsMckinseney aes chief techgnology officer </p>
+                </div>
+            </div>
+
+            <div class="md:flex ">
+                <img class="md:w-1/2 md:h-[300px]" src="/img/cross.jpeg" alt="">
+                <div class="md:px-12 md:pt-32 space-y-3">
+                    <div>
+                        <span>september 23,2022</span>
+                        <p>wrights joinsMckinseney aes chief techgnology officer </p>
+                    </div>
+                    <div class="flex space-x-2">
+                        <span>Read more on our blog</span>
+                        <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="h-96 w-[1000px] lg:w-screen overflow-x-auto">
+
+    </section>
+
+    <div class="md:flex ">
+        <div class="md:px-12 md:pt-32 space-y-3 bg-gray-50 p-8">
+            <h3 class="font-semibold text-2xl">Join McKinsey</h3>
+            <p>Come to McKinsey to do the best work, with the best teams and truly be at your best.</p>
+            <div class="flex space-x-2">
+                <span>Careers</span>
+                <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </div>
+            <div class="flex space-x-2">
+                <span>Search and apply</span>
+                <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </div>
+        </div>
+        <img class="md:w-1/2 md:h-[300px]" src="/img/china.jpeg" alt="">
+    </div>
+    <div class="text-white bg-slate-800 p-12">
+        <h3>How can we help you?</h3>
+        <p>Get in touch with us or find an office closest to you.</p>
+    </div>
+
+    <footer class="bg-gray-100">
+        <div>
+            <h3>McKinsey& Company</h3>
+            <div>
+                <h4>Subscribe</h4>
+                <p>Select topics and stay current with our latest insights</p>
+                <div>
+                    <input type="text">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+                <li>
+                    <a href="#">Faq</a>
+                </li>
+                <li>
+                    <a href="#">Privacy policy</a>
+                </li>
+                <li>
+                    <a href="#">cookies</a>
+                </li>
+                <li>
+                    <a href="#">terms of use</a>
+                </li>
+                <li>
+                    <a href="#">local language</a>
+                </li>
+                <li>
+                    <a href="#">accessibility statement</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">facebook</a>
+                </li>
+                <li>
+                    <a href="#">twitter</a>
+                </li>
+                <li>
+                    <a href="#">linkedin</a>
+                </li>
+                <li>
+                    <a href="#">youtube</a>
+                </li>
+                <li>
+                    <a href="#">cloud</a>
+                </li>
+            </ul>
+        </div>
+        <div></div>
+        <div>
+            <div>
+                <p>McKinsey Insights - Get our latest thinking on your iPhone, iPad, or Android device.</p>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div>
+                <span>© 1996-2022 McKinsey & Company</span>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
